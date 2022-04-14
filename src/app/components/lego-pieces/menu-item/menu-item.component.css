@@ -1,0 +1,11 @@
+.menu-item{
+    color: black;
+    background-color: #fff;
+    cursor: pointer;
+    padding: 1rem;
+}
+.menu-item:hover{
+    color: #fff;
+    background-color: black;
+    cursor: pointer;
+}

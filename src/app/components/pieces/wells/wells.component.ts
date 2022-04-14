@@ -8,6 +8,8 @@ import { OILWELLS } from 'src/app/fake-data/wells';
   styleUrls: ['./wells.component.css']
 })
 export class WellsComponent implements OnInit {
+  // - Variable that receives the mock data
+  // - Strong type with the entity
   wells: OilWell[] = OILWELLS;
   constructor() { }
 

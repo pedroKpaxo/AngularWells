@@ -1,1 +1,4 @@
-<p *ngFor="let well of wells">{{well.operator_name}}</p>
+<div class="cards">
+    <app-well-card *ngFor="let well of wells" [oilWell]="well"></app-well-card>
+
+</div>

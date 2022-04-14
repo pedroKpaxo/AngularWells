@@ -11,7 +11,5 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  toggleAdd(){
-    console.log('Lo')
-  }
+  
 }
