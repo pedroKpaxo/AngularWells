@@ -1,3 +1,7 @@
 .dasboard{
     flex :1;
 }
+
+.dasboard > div{
+    flex: 1;
+}
